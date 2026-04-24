@@ -1,0 +1,961 @@
+python3: can't open file '/home/robot/robo_proj/Missions/your_05_lapin.py': [Errno 2] No such file or directory
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473755081488
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473755081488
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS Horizontal Pos Drift too high (system_impl.cpp:358)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight Fail: No connection to the GCS (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: info: GCS connection regained	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS Horizontal Pos Drift too high (system_impl.cpp:358)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473755081488
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473755081488
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473755081488
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473755081488
+DEBUG:mavsdk_server:MAVLink: info: Armed by external command	 (system_impl.cpp:358)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473755081488
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+-- Starting mission
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472809410320
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472809410320
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+DEBUG:mavsdk_server:MAVLink: info: [logger] /fs/microsd/log/2026-04-08/12_11_27.ulg	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: critical: Switching to Mission is currently not available	 (system_impl.cpp:358)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk_server:MAVLink: info: Takeoff detected	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: info: GCS connection regained	 (system_impl.cpp:358)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472809410320
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472809410320
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472809410320
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472809410320
+DEBUG:mavsdk_server:MAVLink: info: Armed by external command	 (system_impl.cpp:358)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472809410320
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+-- Starting mission
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473289781424
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473289781424
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473289781424
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473289781424
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473289781424
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473289781424
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:MAVLink: info: Armed by external command	 (system_impl.cpp:358)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473289781424
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+-- Starting mission
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472962625712
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472962625712
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:MAVLink: info: [logger] /fs/microsd/log/2026-04-08/12_14_35.ulg	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: info: Executing Mission	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+DEBUG:mavsdk_server:MAVLink: info: GCS connection regained	 (system_impl.cpp:358)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS PDOP too high (system_impl.cpp:358)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472962625712
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472962625712
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472962625712
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472962625712
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:MAVLink: critical: Arming denied: Resolve system health failures first	 (system_impl.cpp:358)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+Traceback (most recent call last):
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 83, in <module>
+    asyncio.run(run())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 69, in run
+    await drone.action.arm()
+  File "/home/robot/new_px4_venv/lib/python3.12/site-packages/mavsdk/action.py", line 359, in arm
+    raise ActionError(result, "arm()")
+mavsdk.action.ActionError: COMMAND_DENIED: 'Command Denied'; origin: arm(); params: ()
+DEBUG:mavsdk_server:MAVLink: critical: Arming denied: switch to manual mode first	 (system_impl.cpp:358)
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472914391216
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472914391216
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472914391216
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472914391216
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472914391216
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473614962352
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473614962352
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473614962352
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473614962352
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473614962352
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+Traceback (most recent call last):
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 83, in <module>
+    asyncio.run(run())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 66, in run
+    await drone.mission.upload_mission(mission_plan)
+  File "/home/robot/new_px4_venv/lib/python3.12/site-packages/mavsdk/mission.py", line 846, in upload_mission
+    raise MissionError(result, "upload_mission()", mission_plan)
+mavsdk.mission.MissionError: BUSY: 'Busy'; origin: upload_mission(); params: (<mavsdk.mission.MissionPlan object at 0xffffae6feae0>,)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+WARNING:mavsdk_server:timeout: retries exceeded (mavlink_mission_transfer_client.cpp:538)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+Traceback (most recent call last):
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 83, in <module>
+    asyncio.run(run())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 66, in run
+    await drone.mission.upload_mission(mission_plan)
+  File "/home/robot/new_px4_venv/lib/python3.12/site-packages/mavsdk/mission.py", line 846, in upload_mission
+    raise MissionError(result, "upload_mission()", mission_plan)
+mavsdk.mission.MissionError: TIMEOUT: 'Timeout'; origin: upload_mission(); params: (<mavsdk.mission.MissionPlan object at 0xffff836dea20>,)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473857454256
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473857454256
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473857454256
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473857454256
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473857454256
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:timeout: retries exceeded (mavlink_mission_transfer_client.cpp:538)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+Traceback (most recent call last):
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 83, in <module>
+    asyncio.run(run())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 66, in run
+    await drone.mission.upload_mission(mission_plan)
+  File "/home/robot/new_px4_venv/lib/python3.12/site-packages/mavsdk/mission.py", line 846, in upload_mission
+    raise MissionError(result, "upload_mission()", mission_plan)
+mavsdk.mission.MissionError: TIMEOUT: 'Timeout'; origin: upload_mission(); params: (<mavsdk.mission.MissionPlan object at 0xffffbba3ea20>,)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS PDOP too high (system_impl.cpp:358)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS Vertical Pos Drift too high (system_impl.cpp:358)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS PDOP too high (system_impl.cpp:358)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS Horizontal Pos Drift too high (system_impl.cpp:358)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS PDOP too high (system_impl.cpp:358)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS Horizontal Pos Drift too high (system_impl.cpp:358)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS Vertical Pos Drift too high (system_impl.cpp:358)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS Vertical Pos Drift too high (system_impl.cpp:358)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+python3: can't open file '/home/robot/robo_proj/Missions/your_05_lapin.py': [Errno 2] No such file or directory
+python3: can't open file '/home/robot/robo_proj/Missions/your_05_lapin.py': [Errno 2] No such file or directory
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473066959024
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473066959024
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+DEBUG:mavsdk_server:MAVLink: info: GCS connection regained	 (system_impl.cpp:358)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473066959024
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473066959024
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473066959024
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473066959024
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473066959024
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+-- Starting mission
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472889422000
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472889422000
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:MAVLink: info: Armed by external command	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+DEBUG:mavsdk_server:MAVLink: info: [logger] /fs/microsd/log/2026-04-08/12_21_28.ulg	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: info: Executing Mission	 (system_impl.cpp:358)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS Horizontal Pos Drift too high (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight Fail: No connection to the GCS (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: info: GCS connection regained	 (system_impl.cpp:358)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472889422000
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472889422000
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472889422000
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472889422000
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:MAVLink: critical: Arming denied: Resolve system health failures first	 (system_impl.cpp:358)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+Traceback (most recent call last):
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 83, in <module>
+    asyncio.run(run())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 69, in run
+    await drone.action.arm()
+  File "/home/robot/new_px4_venv/lib/python3.12/site-packages/mavsdk/action.py", line 359, in arm
+    raise ActionError(result, "arm()")
+mavsdk.action.ActionError: COMMAND_DENIED: 'Command Denied'; origin: arm(); params: ()
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS Horizontal Pos Drift too high (system_impl.cpp:358)
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473318092976
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473318092976
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473318092976
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473318092976
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473318092976
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+WARNING:mavsdk_server:timeout: retries exceeded (mavlink_mission_transfer_client.cpp:538)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+Traceback (most recent call last):
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 83, in <module>
+    asyncio.run(run())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 66, in run
+    await drone.mission.upload_mission(mission_plan)
+  File "/home/robot/new_px4_venv/lib/python3.12/site-packages/mavsdk/mission.py", line 846, in upload_mission
+    raise MissionError(result, "upload_mission()", mission_plan)
+mavsdk.mission.MissionError: TIMEOUT: 'Timeout'; origin: upload_mission(); params: (<mavsdk.mission.MissionPlan object at 0xffff9b7de9c0>,)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk_server:MAVLink: critical: Preflight Fail: horizontal position unstable (system_impl.cpp:358)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473227844080
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473227844080
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473227844080
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473227844080
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473227844080
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:timeout: retries exceeded (mavlink_mission_transfer_client.cpp:538)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+Traceback (most recent call last):
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 83, in <module>
+    asyncio.run(run())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 66, in run
+    await drone.mission.upload_mission(mission_plan)
+  File "/home/robot/new_px4_venv/lib/python3.12/site-packages/mavsdk/mission.py", line 846, in upload_mission
+    raise MissionError(result, "upload_mission()", mission_plan)
+mavsdk.mission.MissionError: TIMEOUT: 'Timeout'; origin: upload_mission(); params: (<mavsdk.mission.MissionPlan object at 0xffff9621ea80>,)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473634762480
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473634762480
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473634762480
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473634762480
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473634762480
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+Traceback (most recent call last):
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 83, in <module>
+    asyncio.run(run())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 66, in run
+    await drone.mission.upload_mission(mission_plan)
+  File "/home/robot/new_px4_venv/lib/python3.12/site-packages/mavsdk/mission.py", line 841, in upload_mission
+    response = await self._stub.UploadMission(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/robot/new_px4_venv/lib/python3.12/site-packages/grpc/aio/_call.py", line 327, in __await__
+    raise _create_rpc_error(
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_status:14, grpc_message:"Socket closed"}"
+>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473713799344
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473713799344
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473713799344
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473713799344
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473713799344
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+WARNING:mavsdk_server:timeout: retries exceeded (mavlink_mission_transfer_client.cpp:538)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+Traceback (most recent call last):
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 83, in <module>
+    asyncio.run(run())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/Missions/05_lapin.py", line 66, in run
+    await drone.mission.upload_mission(mission_plan)
+  File "/home/robot/new_px4_venv/lib/python3.12/site-packages/mavsdk/mission.py", line 846, in upload_mission
+    raise MissionError(result, "upload_mission()", mission_plan)
+mavsdk.mission.MissionError: TIMEOUT: 'Timeout'; origin: upload_mission(); params: (<mavsdk.mission.MissionPlan object at 0xffffb313ea20>,)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+WARNING:mavsdk_server:Received ack for not-existing command: 520! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+WARNING:mavsdk_server:Received ack for not-existing command: 512! Ignoring... (mavlink_command_sender.cpp:304)
+INFO:mavsdk_server:heartbeats timed out (system_impl.cpp:379)
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473813946128
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473813946128
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473813946128
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473813946128
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473813946128
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473813946128
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473813946128
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+-- Starting mission
+  File "/home/robot/robo_proj/Missions/08_front_entrance.py", line 8
+    from functions import 
+                          ^
+SyntaxError: invalid syntax
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473619393328
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473619393328
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:MAVLink: info: [logger] /fs/microsd/log/2026-04-13/05_58_49.ulg	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: critical: Switching to Mission is currently not available	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: info: Takeoff detected	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+DEBUG:mavsdk_server:MAVLink: info: GCS connection regained	 (system_impl.cpp:358)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS PDOP too high (system_impl.cpp:358)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473619393328
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473619393328
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473619393328
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473619393328
+DEBUG:mavsdk_server:MAVLink: info: Armed by external command	 (system_impl.cpp:358)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473619393328
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+-- Starting mission
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472912521600
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472912521600
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+DEBUG:mavsdk_server:MAVLink: info: [logger] /fs/microsd/log/2026-04-13/05_59_13.ulg	 (system_impl.cpp:358)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+DEBUG:mavsdk_server:MAVLink: critical: Switching to Mission is currently not available	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: info: Takeoff detected	 (system_impl.cpp:358)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk_server:MAVLink: info: GCS connection regained	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS PDOP too high (system_impl.cpp:358)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472912521600
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472912521600
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472912521600
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472912521600
+DEBUG:mavsdk_server:MAVLink: info: Armed by external command	 (system_impl.cpp:358)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472912521600
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+-- Starting mission
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473135835136
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473135835136
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:MAVLink: info: [logger] /fs/microsd/log/2026-04-13/06_00_29.ulg	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: critical: Switching to Mission is currently not available	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+DEBUG:mavsdk_server:MAVLink: info: GCS connection regained	 (system_impl.cpp:358)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473135835136
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473135835136
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473135835136
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473135835136
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS PDOP too high (system_impl.cpp:358)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281473135835136
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+-- Starting mission
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472979272672
+DEBUG:grpc._cython.cygrpc:Using AsyncIOEngine.POLLER as I/O engine
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472979272672
+DEBUG:mavsdk.async_plugin_manager:Waiting for mavsdk_server to be ready...
+INFO:mavsdk_server:MAVSDK version: v3.15.0 (mavsdk_impl.cpp:33)
+INFO:mavsdk_server:Waiting to discover system on serial:///dev/serial/by-id/usb-Auterion_PX4_FMU_v6C.x_0-if00:2000000... (connection_initiator.h:20)
+DEBUG:mavsdk_server:Component Autopilot (component ID: 1) added. (system_impl.cpp:496)
+DEBUG:mavsdk_server:MAVLink: info: Armed by external command	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: info: [logger] /fs/microsd/log/2026-04-13/06_01_11.ulg	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: critical: Switching to Mission is currently not available	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:Discovered 1 component (system_impl.cpp:616)
+INFO:mavsdk_server:System discovered (connection_initiator.h:62)
+INFO:mavsdk_server:Server started (grpc_server.cpp:177)
+INFO:mavsdk_server:Server set to listen on 0.0.0.0:50051 (grpc_server.cpp:178)
+DEBUG:mavsdk_server:MAVLink: info: Takeoff detected	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: info: GCS connection regained	 (system_impl.cpp:358)
+DEBUG:mavsdk_server:MAVLink: warning: Preflight: GPS PDOP too high (system_impl.cpp:358)
+DEBUG:mavsdk.async_plugin_manager:Connected to mavsdk_server!
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472979272672
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472979272672
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472979272672
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472979272672
+DEBUG:mavsdk_server:MAVLink: info: Armed by external command	 (system_impl.cpp:358)
+DEBUG:grpc._cython.cygrpc:[_cygrpc] Loaded running loop: id(loop)=281472979272672
+WARNING:mavsdk_server:Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+-- Starting mission
+Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+Traceback (most recent call last):
+  File "/home/robot/robo_proj/Missions/07_front_entrance_lidar.py", line 95, in <module>
+    asyncio.run(run())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/Missions/07_front_entrance_lidar.py", line 78, in run
+    await drone.mission.upload_mission(mission_plan)
+  File "/home/robot/robo_proj/.venv/lib/python3.12/site-packages/mavsdk/mission.py", line 841, in upload_mission
+    response = await self._stub.UploadMission(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/.venv/lib/python3.12/site-packages/grpc/aio/_call.py", line 329, in __await__
+    raise _create_rpc_error(
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_status:14, grpc_message:"Socket closed"}"
+>
+Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+Received ack for not-existing command: 176! Ignoring... (mavlink_command_sender.cpp:304)
+Received ack for not-existing command: 511! Ignoring... (mavlink_command_sender.cpp:304)
+Waiting for drone to connect...
+-- Connected to drone!
+-- Uploading mission
+-- Arming
+-- Starting mission
+Traceback (most recent call last):
+  File "/home/robot/robo_proj/Missions/07_front_entrance_lidar.py", line 95, in <module>
+    asyncio.run(run())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/robot/robo_proj/Missions/07_front_entrance_lidar.py", line 86, in run
+    await asyncio.gather(
+  File "/home/robot/robo_proj/Missions/07_front_entrance_lidar.py", line 14, in monitor_mission
+    async for mission_progress in drone.mission.mission_progress():
+  File "/home/robot/robo_proj/.venv/lib/python3.12/site-packages/mavsdk/mission.py", line 1138, in mission_progress
+    async for response in mission_progress_stream:
+  File "/home/robot/robo_proj/.venv/lib/python3.12/site-packages/grpc/aio/_call.py", line 366, in _fetch_stream_responses
+    await self._raise_for_status()
+  File "/home/robot/robo_proj/.venv/lib/python3.12/site-packages/grpc/aio/_call.py", line 274, in _raise_for_status
+    raise _create_rpc_error(
+grpc.aio._call.AioRpcError: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Socket closed", grpc_status:14}"
+>
