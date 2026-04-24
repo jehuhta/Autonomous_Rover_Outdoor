@@ -1,6 +1,6 @@
 # Autonomous RC Rover -- Object Detection, Lidar, GPS navigation
 
-<i> Jeremy Huhta, Gayani Disawage, Edijs Strolis
+<i> Jeremy Huhta, Gayani Disawage, Edijs Strolis </i>
 
 <br> 
 
