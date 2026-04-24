@@ -1,4 +1,4 @@
-### Autonomous RC Rover -- Object Detection, Lidar, GPS navigation
+# Autonomous RC Rover -- Object Detection, Lidar, GPS navigation
 
 <br> 
 
