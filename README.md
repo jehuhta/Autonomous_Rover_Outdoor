@@ -10,22 +10,13 @@
 * RaspberryPi5
 * Camera (captures frames during the mission)
 * Object Detection (reports what it saw during the mission)
-* Non-ROS lidar dodging using a custom library I developed (LightLidar)
+* Non-ROS lidar dodging using a custom library for the project (LightLidar)
 * Crossfire protocol (transciever/transmitter)
 * QGroundControl
 * CSC DBaaS stores post-mission info, gps location, and object detection results.
 * Streamlit Dashboard retrieving data from postgre db, visualizing mission results.
 
 ### Videos
-
-<iframe>
-  src="https://drive.google.com/file/d/13XhkIBho0NHk22KdxnauqyNc27zsrg2S/preview" 
-  width="640" 
-  height="480" 
-  allow="autoplay">
-</iframe>
-
-
 
 https://drive.google.com/file/d/13XhkIBho0NHk22KdxnauqyNc27zsrg2S/view?usp=sharing
 
