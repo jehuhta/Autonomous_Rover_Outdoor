@@ -1,5 +1,7 @@
 ### Autonomous RC Rover -- Object Detection, Lidar, GPS navigation
 
+<br> 
+
 <img width="528" height="706" alt="image" src="https://github.com/user-attachments/assets/1572a70d-3629-4ac4-86d2-0caf2193791a" />
 
 
