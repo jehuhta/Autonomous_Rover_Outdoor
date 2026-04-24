@@ -32,5 +32,7 @@ https://drive.google.com/file/d/1eCOzFyEx8hW3prvHlIMfsB_pQN1z7qxf/view?usp=shari
 
 <br> 
 
+### PX4 SITL Simulation Guide in Gazebo
 
+https://docs.google.com/document/d/1z3-eDyU8_LM__Pzj1X5ttv-u5MphG-FmZoaNTeOQ9Qo/edit?usp=sharing
 
