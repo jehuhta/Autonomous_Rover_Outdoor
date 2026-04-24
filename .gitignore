@@ -1,0 +1,9 @@
+new_px4_venv/
+bin/
+PX4-Autopilot/
+__pycache__/
+pv.venv/
+.streamlit/
+.env/
+.venv
+.env
