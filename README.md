@@ -30,8 +30,6 @@ https://drive.google.com/file/d/1eCOzFyEx8hW3prvHlIMfsB_pQN1z7qxf/view?usp=shari
 
 <br> 
 
-<img width="563" height="724" alt="image" src="https://github.com/user-attachments/assets/364d4d93-2ba2-491b-bd3c-f8b7f9d774e9" />
-
 <br> 
 
 
