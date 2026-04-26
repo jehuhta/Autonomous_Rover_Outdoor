@@ -2,6 +2,9 @@
 
 <i> Jeremy Huhta, Gayani Disawage, Edijs Strolis </i>
 
+Lidar object avoidance and Object detection Ground Rover using MAVSDK and Autonomous navigation
+
+
 <br> 
 
 <img width="995" height="542" alt="image" src="https://github.com/user-attachments/assets/87400936-c571-4014-8ba8-585dcfc21170" />
